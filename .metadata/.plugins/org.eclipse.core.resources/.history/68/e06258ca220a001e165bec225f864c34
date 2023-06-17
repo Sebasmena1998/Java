@@ -1,0 +1,16 @@
+package CondicionalesYCiclos;
+
+public class CondicionalesYCiclos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final int edad = 31;
+		
+		edad = 55;
+		
+		System.out.println("La edad es: " + edad);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package entidades;
+
+//Primero dar la instrucciónde que quiero heredar
+public class Empleado extends Persona {
+	
+	//1.- Atributos o propiedades
+	public String numEmpleado; 
+	public String nss;
+	public String puesto;
+
+	
+	
+	//2.- Constructor con parametros
+	public Empleado(String nombre, int edad, String correo, String telefono, String numEmpleado, String nss,
+			String puesto) {
+		super(nombre, edad, correo, telefono);
+		this.numEmpleado = numEmpleado;
+		this.nss = nss;
+		this.puesto = puesto;
+	}
+
+	
+	}
+
