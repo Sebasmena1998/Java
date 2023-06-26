@@ -2,4 +2,14 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="ejercicioCuentaAhorro.CajaAhorros"/>
+    <fullyQualifiedTypeName name="EjercicioProductosDescuento.Producto"/>
+    <fullyQualifiedTypeName name="EjercicioProductosDescuento.Consumidor"/>
+    <fullyQualifiedTypeName name="entidades.cliente"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

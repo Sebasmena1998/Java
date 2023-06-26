@@ -1,3 +1,4 @@
+
 package entidades;
 
 //Primero dar la instrucciónde que quiero heredar
@@ -11,15 +12,14 @@ public class Empleado extends Persona {
 	// 2.- Constructor con parametros
 	public Empleado(String nombre, int edad, String correo, String telefono, String numEmpleado, String nss,
 			String puesto) {
-		super(nombre, edad, correo, telefono);
+		super(nombre, edad, correo, telefono);// con la palabra Super, evitamos repetir los .this
 		this.numEmpleado = numEmpleado;
 		this.nss = nss;
 		this.puesto = puesto;
 	}
+
+	// Heredar constructore sobrecargado
 	
-	//Heredar constructores
-	
-		
 
 	// 3. Metodo para imprimirInformacion empleado
 	public void mostrarInformacion() {
@@ -30,6 +30,20 @@ public class Empleado extends Persona {
 		System.out.println("Numero Empleado: " + numEmpleado);
 		System.out.println("Numero Seguro Social: " + nss);
 		System.out.println("Puesto: " + puesto);
+		System.out.println("------Siguiente Persona------");
 	}// cierre mostrarInformacin
-
+	
+	
+    //4. toString
+    //toString es un metodo en Java que proviene de la clase Objeto (el antecesor o precursor de todos los objetos que existen en Java). Este metodo ya se escribio, ya esta definido y nos permite mostrar la informacion del objeto en una cadena de texto. 
+    
+    @Override
+    public String toString() {
+        return "Empleado [numEmpleado=" + numEmpleado + ", nss=" + nss + ", puesto=" + puesto + ", nombre=" + nombre + ", edad=" + edad + ", correo=" + correo + ", telefono=" + telefono + "]";
+    }
 }
+
+
+
+
+
