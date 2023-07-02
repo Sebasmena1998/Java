@@ -8,8 +8,23 @@
     <fullyQualifiedTypeName name="EjercicioProductosDescuento.Producto"/>
     <fullyQualifiedTypeName name="EjercicioProductosDescuento.Consumidor"/>
     <fullyQualifiedTypeName name="entidades.cliente"/>
+    <fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="abstraccion.Vehiculo"/>
+    <fullyQualifiedTypeName name="abstraccion.Automovil"/>
+    <fullyQualifiedTypeName name="abstraccion.Motocicleta"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Colecciones.cliente"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="Colecciones.Cliente"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="CalculadoraPruebasUnitarias.Calculadora"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
 </qualifiedTypeNameHistroy>
